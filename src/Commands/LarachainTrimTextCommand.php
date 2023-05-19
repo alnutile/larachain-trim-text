@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace SundanceSolutions\LarachainTrimText\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LarachainTrimTextCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'larachain-trim-text';
 
     public $description = 'My command';
 
