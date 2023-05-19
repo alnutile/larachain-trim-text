@@ -25,15 +25,7 @@ class LarachainTrimText
 
     protected StopWords $stopWords;
 
-    public function handle(string $content): string
-    {
-        $this->stopWords = new StopWords();
-
-        return $this->trim($content);
-
-    }
-
-    protected function trim(
+    public function trim(
         string $text,
         string $language = 'en',
         bool $removeSpaces = false,
@@ -41,6 +33,9 @@ class LarachainTrimText
         bool $removePunctuation = false,
         bool $stemmer = true
     ): string {
+
+        $this->stopWords = new StopWords();
+
         if ($stemmer) {
             $stemmer = StemmerFactory::create($language);
         }

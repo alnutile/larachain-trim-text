@@ -6,6 +6,6 @@ it('test trims', function () {
     $expected = 'dont human genuin origin ideas? Come on, read fantasi book. Tolkien clone, Song Ice Fire. Tolkien professor Anglo-saxon languag culture; secret got inspiration. Song Ice just War Rose dragons. Lannist Stark just Lancast York, map Westero just Britain (minus Scotland) upsid down-ireland stuck  wake up, sheeple! Dullard blend Tolkien slurri shape Tolkien-clone. Tolkien-level artist genius blend human experience, history, artist corpus slurri form entir new genre. Again, differ fine blend spice add slurry.';
 
     $trimmer = new SundanceSolutions\LarachainTrimText\LarachainTrimText();
-    $results = $trimmer->handle($example);
+    $results = $trimmer->trim($example);
     expect($results)->toBe($expected);
 });
