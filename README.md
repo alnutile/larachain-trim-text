@@ -5,8 +5,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/sundance-solutions/larachain-trim-text/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/sundance-solutions/larachain-trim-text/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/sundance-solutions/larachain-trim-text.svg?style=flat-square)](https://packagist.org/packages/sundance-solutions/larachain-trim-text)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
-
+This is basically a copy of a LangChain library that reduces the text so that an LLM can read it and it saves characaters. Some of the ideas can be seen [here](https://www.datacamp.com/tutorial/stemming-lemmatization-python)
 
 ## Installation
 
